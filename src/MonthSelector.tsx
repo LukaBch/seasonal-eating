@@ -13,6 +13,8 @@ export default function MonthSelector(props: IMonthSelectorProps) {
   }));
   const value = options[props.selectedMonthIndex];
   return (
-    <Select value={value} options={options} onChange={props.onMonthChange} />
+    <div className="w-48">
+      <Select value={value} options={options} onChange={props.onMonthChange} />
+    </div>
   );
 }
