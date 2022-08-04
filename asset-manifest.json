@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/seasonal-eating/static/js/main.6ea14340.js",
+    "main.css": "/seasonal-eating/static/css/main.3cae2b09.css",
+    "main.js": "/seasonal-eating/static/js/main.c3c67e84.js",
     "index.html": "/seasonal-eating/index.html",
-    "main.6ea14340.js.map": "/seasonal-eating/static/js/main.6ea14340.js.map"
+    "main.3cae2b09.css.map": "/seasonal-eating/static/css/main.3cae2b09.css.map",
+    "main.c3c67e84.js.map": "/seasonal-eating/static/js/main.c3c67e84.js.map"
   },
   "entrypoints": [
-    "static/js/main.6ea14340.js"
+    "static/css/main.3cae2b09.css",
+    "static/js/main.c3c67e84.js"
   ]
 }
