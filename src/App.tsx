@@ -10,7 +10,9 @@ interface IMonthProps {
 }
 
 function App() {
-  const [selectedMonthIndex, setSelectedMonthIndex] = useState<number>(0);
+  const [selectedMonthIndex, setSelectedMonthIndex] = useState<number>(
+    new Date().getMonth()
+  );
 
   const handleMonthChange = (newMonth: IMonthProps) => {
     setSelectedMonthIndex(newMonth.value);
