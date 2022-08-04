@@ -16,4 +16,3 @@ export default function MonthSelector(props: IMonthSelectorProps) {
     <Select value={value} options={options} onChange={props.onMonthChange} />
   );
 }
-

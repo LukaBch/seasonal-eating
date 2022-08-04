@@ -12,3 +12,10 @@ export const months = [
   "novembre",
   "décembre",
 ];
+
+export const fruits = [
+  {
+    name: "banane",
+    good: [0, 9, 10, 11],
+  },
+];
